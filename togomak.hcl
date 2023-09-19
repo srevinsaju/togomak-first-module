@@ -13,5 +13,7 @@ stage "hello_world" {
   echo a remote git macro for your togomak build configuration.
   echo Repo: https://github.com/srevinsaju/togomak-first-module
   echo =========================================================
+  echo cwd: ${cwd}
+  echo owd: ${owd}
   EOF
 }
